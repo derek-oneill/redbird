@@ -1,14 +1,13 @@
 {
-  "name": "redbird",
-  "version": "0.7.0",
+  "name": "redbird-entrinsik",
+  "version": "0.7.1",
   "description": "A reverse proxy with support for dynamic tables",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/* --reporter spec"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/OptimalBits/redbird.git"
+  "publishConfig": {
+    "registry": "http://docker.entrinsik.com/repository/entNPM/"
   },
   "keywords": [
     "proxy",
@@ -16,12 +15,8 @@
     "docker",
     "etcd"
   ],
-  "author": "Manuel Astudillo",
+  "author": "Manuel Astudillo and Derek O'Neill",
   "license": "BSD-3-Clause-Attribution",
-  "bugs": {
-    "url": "https://github.com/OptimalBits/redbird/issues"
-  },
-  "homepage": "https://github.com/OptimalBits/redbird",
   "dependencies": {
     "bluebird": "^3.4.0",
     "bunyan": "^1.8.1",
