@@ -7,7 +7,7 @@
     "test": "mocha test/* --reporter spec"
   },
   "publishConfig": {
-    "registry": "https://docker.entrinsik.com/repository/entNPM/"
+    "registry": "http://docker.entrinsik.com/repository/entNPM/"
   },
   "keywords": [
     "proxy",
