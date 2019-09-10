@@ -1,6 +1,6 @@
 {
   "name": "redbird-entrinsik",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "A reverse proxy with support for dynamic tables",
   "main": "index.js",
   "scripts": {
